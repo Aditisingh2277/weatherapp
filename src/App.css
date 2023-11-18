@@ -1,0 +1,221 @@
+
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.heading{
+ 
+  width: 1600px;
+  height: 47px;
+  background: #0000007D;
+  box-shadow: 2px 2px 4px 0px #0000001F;
+  
+}
+.heading h1{
+  margin-left: 50px;
+}
+.app {
+  padding: 0px;
+}
+.cityname h2{
+  width: 210px;
+height: 28px;
+top: 110px;
+left: 192px;
+font-family: Roboto;
+font-size: 23px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: #1D2540;
+
+}
+.cityname p{
+  width: 153px;
+height: 16px;
+top: 146px;
+left: 154px;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #606060;
+
+
+
+}
+
+.search-bar {
+  display: flex;
+ align-items: flex-end;
+  margin-bottom: 20px;
+
+  width: 1127px;
+height: 64.78px;
+top: 105.22px;
+left: 300px;
+border: none;
+
+
+}
+
+.search-bar h2 {
+  margin: 0;
+}
+
+.search-bar input[type='text'] {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 327px;
+height: 45.78px;
+top: 105.22px;
+left: 952px;
+border-radius: 8px;
+
+}
+
+.search-bar button {
+  padding: 8px 15px;
+  border: none;
+  
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+.wrapper {
+  border:1px solid #000;
+  display:inline-block;
+  position:relative;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1065.93px;
+height: 305px;
+top: 221px;
+left: 154px;
+padding: 0px, 0px, 0px, 0px;
+border-radius: 7px;
+border: 1px;
+
+
+
+}
+
+.firstcard {
+  width: 136px;
+height: 184px;
+top: 342px;
+left: 154px;
+color: #000000;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+
+
+}
+
+.weather-card {
+  
+  
+  
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  
+  width: 151.93px;
+height: 275.52px;
+top: 250.48px;
+left: 324px;
+border-radius: 7px;
+background: linear-gradient(180deg, #464646 0%, #1D2540 100%);
+box-shadow: 2px 2px 4px 0px #00000026;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color:  #FFFFFF;
+;
+
+
+
+}
+.weather-card:hover {
+  transform: translateY(-5px);
+}
+.weathercard{
+  width: 151.93px;
+height: 305px;
+top: 221px;
+left: 324px;
+border-radius: 7px;
+border: 1px;
+display: flex;
+  flex-direction: column;
+justify-content: space-between;
+}
+.weathercard h2{
+  width: 114.52px;
+height: 23.81px;
+top: 221px;
+left: 345.54px;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #444444;
+
+
+}
+.ddate{
+  width: 69px;
+height: 15px;
+top: 271px;
+left: 152px;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+color: #444444;
+
+
+}
+#date{
+  width: 127px;
+height: 37.28px;
+top: 286.15px;
+left: 152px;
+border-radius: 3px;
+border: 1px;
+border: 1px solid #464646;
+
+}
+.weather-card img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+
+
